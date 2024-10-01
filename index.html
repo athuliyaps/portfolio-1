@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css link -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- fontawesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gowun+Batang:wght@400;700&family=Over+the+Rainbow&family=Sofadi+One&family=Sriracha&display=swap" rel="stylesheet">
+     <!-- animation -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+   />
+   <!-- aos -->
+   
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- nav bar -->
+         <nav>
+            <!-- Logo -->
+             <img  class="logo" src="./images/-a-logo-.jpg" alt="">
+             <!-- links -->
+              <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+              </ul>
+
+         </nav>
+         <!-- Home -->
+          <section id="home">
+            <div class="section-content">
+              <h1  class="animate__animated  animate__tada" id="Username">I'm Maria <span id="lname">Joe</span></h1>
+              <p id="userdetails">This is my official protfolio website to describe all <br>
+                Details and work experience in web development </p>
+                <a  id="download" href="">Download CV</a>
+            </div>
+            <div class="section-img">
+              <!-- shape -->
+              <img id="shape" class="group1" src="./images/shape.png" alt="no image">
+              <!-- girl -->
+              <img id="girl" class="group1" src="./images/girl.png" alt="no image">
+            </div>
+          </section>
+         <!-- About -->
+          <section id="about">
+            <div class="sectionHead">
+              <h2 class="mainHead">About me</h2>
+              <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+              <div  data-aos="zoom-in-up" class="aboutImage">
+                <img  class="img1" src="./images/self-love-an-love-yor-body-concept-the-girl-hugs-herself-and-presses-her-heart-to-her-with-the-words-i-love-myself-vector.jpg" alt="no image">
+              </div>
+              <div class="aboutContent">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nobis temporibus quia modi vero mollitia reiciendis atque, dolor aut voluptatum maxime ipsum, repellendus veritatis esse numquam ratione quibusdam quo harum?</p>
+                <div class="informations">
+                  <div class="infobox">
+                    <i class="fa-solid fa-user"></i>
+                      <span>Maria Joe</span>
+                    </div>
+                    <div class="infobox">
+                      <i class="fa-solid fa-phone"></i>
+                        <span>9539417575</span>
+                    </div>
+                      <div class="infobox">
+                        <i class="fa-solid fa-envelope"></i>
+                          <span>mariajoe@gmail.com</span>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+           
+            
+          </section>
+          <!-- Skill -->
+           <section id="skill"> 
+            <div class="sectionHead">
+             <h2 class="mainHead">Skills</h2>
+             <span class="subHead">My skills</span>  
+            </div>
+          <div class="skillcontent">
+            
+            <!-- progressbars -->
+             <div class="progressbars">
+              <!-- htmlbar -->
+               <div class="bars">
+                 <h3 class="barHead">HTML</h3>
+                 <span class="barPercent">93%</span>
+                 <div class="basebar"></div>
+                 <div data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500" class="basebar htmlbar"></div>
+               </div>
+               <!-- CSS bar -->
+               <div class="bars">
+                <h3 class="barHead">CSS</h3>
+                <span class="barPercent">90%</span>
+                <div class="basebar"></div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="basebar cssbar"></div>
+              </div>
+                <!-- JS bar -->
+                <div class="bars">
+                  <h3 class="barHead">JS</h3>
+                  <span class="barPercent">87%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500" class="basebar jsbar"></div>
+                </div>
+                 <!-- Reactbar -->
+                 <div class="bars">
+                  <h3 class="barHead">React</h3>
+                  <span class="barPercent">91%</span>
+                  <div class="basebar"></div>
+                  <div data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500" class="basebar reactbar"></div>
+                </div>
+             </div>
+             <!-- skillImage -->
+              <div data-aos="zoom-out-down" class="skillImage">
+                <img class="myskill" src="./images/7-Benefits-That-Highlight-The-Importance-Of-Soft-Skills-In-The-Workplace.png" alt="no img">
+              </div>
+          </div>
+        </section>
+          
+           <!-- Contact -->
+           <section id="contact"> 
+            <div class="sectionHead">
+             <h2 class="mainHead">Contacts</h2>
+             <span class="subHead">My contacts</span>  
+            </div>
+            <!-- Icons -->
+             <div class="iconcollections">
+              <!-- Linked in -->
+               <div class="icon">
+                <a target="_blank" href="www.linkedin.com/in/athuliya-p-s-3aba11215">
+
+                <i class="fa-brands fa-linkedin  brands"></i></a>
+               </div>
+               <!-- facebook -->
+               <div class="icon">
+                <a target="_blank" href="www.linkedin.com/in/athuliya-p-s-3aba11215">
+
+                <i class="fa-brands fa-facebook brands"></i></a>
+               </div>
+                <!-- twitter -->
+                <div class="icon">
+                  <a target="_blank" href="www.linkedin.com/in/athuliya-p-s-3aba11215">
+  
+                  <i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                 <!-- whatsapp -->
+                 <div class="icon">
+                  <a target="_blank" href="www.linkedin.com/in/athuliya-p-s-3aba11215
+  
+                  "><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                  <!-- instagram -->
+                  <div class="icon">
+                    <a target="_blank" href="www.linkedin.com/in/athuliya-p-s-3aba11215
+    
+                    "><i class="fa-brands fa-instagram brands"></i></a>
+                   </div>
+             </div>
+             </section>
+             <footer>
+              <p id="copyright">&copy; My portfolio website- june 2024.All rightreserved to &reg; Mariajoe</p>
+              <div class="icon uparrow">
+                <a  href="#container">
+
+                  <i class="fa-solid fa-arrow-up brands"></i></a>
+                </div>
+             </footer>
+    </div>
+    
+</body>
+<!-- aos script -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- aos init -->
+<script>
+  AOS.init();
+</script>
+</html>
